@@ -1,0 +1,12 @@
+{
+    "highways": {
+        "highway0": {
+            "highwayName": "" ,
+            "highwayDescription": ""
+        },
+        "highway1": {
+            "highwayName": "",
+            "highwayDescription": ""
+        }
+    }
+}

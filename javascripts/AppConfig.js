@@ -1,20 +1,20 @@
 app.config(function($routeProvider) {
     $routeProvider
-        .when("/highway/list", {
-            templateUrl: "partials/highway-list.html",
-            controller: "highwayListCtrl"
+        .when("/highway/home", {
+            templateUrl: "partials/highway-home.html",
+            controller: "highwayHomeCtrl"
         })
-        .when("/highway/new", {
-            templateUrl: "partials/highway-new.html",
-            controller: "highwayNewCtrl"
+        .when("/highway/1", {
+            templateUrl: "partials/highway-1.html",
+            controller: "highway1Ctrl"
         })
-        .when("/highway/view/:id", {
-            templateUrl: "partials/highway-view.html",
-            controller: "highwayViewCtrl"
+        .when("/highway/2", {
+            templateUrl: "partials/highway-2.html",
+            controller: "highway2Ctrl"
         })
         .when("/highway/edit/:id", {
             templateUrl: "partials/highway-new.html",
             controller: "highwayEditCtrl"
         })
-        .otherwise("/highway/list");
+        .otherwise("/highway/home");
 });

@@ -7,22 +7,22 @@
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body ng-app="RouteRoutingApp">
-	<div ng-include="partials/navbar.html"></div>
-		<div class="row">
-			<h1 class="list-inline center-block text-center"></h1>
-			<div class="col-xs-8 col-xs-offset-2" ng-view>
-				
-			</div>
-		</div>
+    <div ng-include="'partials/navbar.html'"></div>
+    <div class="row">
+        <h1 class="list-inline center-block text-center">Address Book</h1>
+        <div class="col-xs-8 col-xs-offset-2" ng-view>
+        
+        </div>
+    </div>
 
-<img src="/images/route.png">
-
-
+<!-- <img src="/images/route.png"> -->
 
 
 
 
-<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+
+
+	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
     <script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="/lib/bower_components/angular/angular.min.js"></script>
@@ -35,8 +35,8 @@
 
     <script type="text/javascript" src="./javascripts/controllers/NavCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/highwayEditCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayListCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayNewCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayViewCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/highwayHomeCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/highway1Ctrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/highway2Ctrl.js"></script>
 </body>
 </html>
