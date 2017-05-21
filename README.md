@@ -25,10 +25,7 @@
 - Angular
 - ngRoute
 
+![Screengrab](https://raw.githubusercontent.com/ellisthomas/route-routing/route/images/screengrab/Screen%20Shot%202017-05-21%20at%202.25.48%20PM.png)
 
-![Screengrab]()
-
-![Screengrab]()
-
-![Screengrab]()
+![Screengrab](https://raw.githubusercontent.com/ellisthomas/route-routing/route/images/screengrab/Screen%20Shot%202017-05-21%20at%202.30.46%20PM.png)
 
