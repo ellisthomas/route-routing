@@ -1,3 +1,4 @@
 app.controller("highwayHomeCtrl", function($scope) {
-	$scope.highwayName = [];
+	$scope.highwayName = "";
+	$scope.highwayDescription = "";
 });

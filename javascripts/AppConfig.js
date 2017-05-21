@@ -12,9 +12,5 @@ app.config(function($routeProvider) {
             templateUrl: "partials/highway-2.html",
             controller: "highway2Ctrl"
         })
-        .when("/highway/edit/:id", {
-            templateUrl: "partials/highway-new.html",
-            controller: "highwayEditCtrl"
-        })
         .otherwise("/highway/home");
 });
