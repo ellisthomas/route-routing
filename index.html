@@ -6,27 +6,35 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
-<body>
+<body ng-app="RouteRoutingApp">
+	 <div class="jumbotron">
+	 <!-- <img src="/images/reRoute.png"> -->
+        <!-- <h1 class="list-inline center-block text-center">Route Routing</h1> -->
+    </div>
+    <div ng-include="'partials/navbar.html'"></div>
+    <div class="row">
+        <!-- <h1 class="list-inline center-block text-center">Route Routing</h1> -->
+        <div class="col-xs-8 col-xs-offset-2" ng-view>
+        
+        </div>
+    </div>
 
 
 
 
-
-
-<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
     <script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="/lib/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./lib/bower_components/angular-route/angular-route.js"></script>
     
     <script type="text/javascript" src="./javascripts/app.js"></script>
     <script type="text/javascript" src="./javascripts/AppConfig.js"></script>
-    <script type="text/javascript" src="./javascripts/AppConstants.js"></script>
     
 
     <script type="text/javascript" src="./javascripts/controllers/NavCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayEditCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayListCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayNewCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/highwayViewCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/highwayHomeCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/highway1Ctrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/highway2Ctrl.js"></script>
 </body>
 </html>
